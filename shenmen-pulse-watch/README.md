@@ -24,7 +24,7 @@ The system must separate a measurable local pulse-wave workflow from clinical in
 
 ## Results and current status
 
-The workspace contains historical hardware/protocol smoke evidence and a historical manual pressure-mapping report. These are useful engineering records, not current acceptance certificates. The software README and design specification provide a reproducible prototype scope.
+The workspace contains historical hardware/protocol smoke evidence and a historical manual pressure-mapping report. These are useful engineering records, not current acceptance certificates. The copied signal-processing core runs end to end on generated synthetic data; the hardware acquisition path and measured-session evidence are not part of this public snapshot.
 
 ## What I learned
 
@@ -36,9 +36,9 @@ Public application identifiers and official registry links will be added after t
 
 ## Artifacts
 
-- `README.md` and `docs/contribution_questions.md` in this draft repository.
-- Source evidence is indexed in the portfolio delivery package's `evidence/source_manifest.json`.
-- Public repository and patent links: pending user confirmation.
+- `shenmen_pulse/`: signal schema, CSV I/O, DSP/features, analysis, reporting, and synthetic generator.
+- `docs/CORE_SNAPSHOT.md`: exact included and excluded scope.
+- Patent application identifiers and official records are omitted pending verification.
 
 ## Draft and licensing status
 
@@ -57,5 +57,8 @@ python -m unittest discover -s tests
 ```
 
 All generated data are synthetic and are not human measurements or evidence of clinical validity. See `docs/CORE_SNAPSHOT.md` for the included-file boundary.
+
+
+
 
 
