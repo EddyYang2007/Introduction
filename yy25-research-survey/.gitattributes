@@ -1,0 +1,9 @@
+* text=auto
+source-bundle/*.js -text
+public/vendor/*.js -text
+*.mjs text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.ps1 text eol=crlf
+

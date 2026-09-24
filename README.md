@@ -1,15 +1,24 @@
 # Eddy Yang — Project Portfolio
 
-This repository contains five sanitized core-code snapshots prepared for portfolio review.
+Five project snapshots and their runnable core code are collected here. Read each project README for my role, the engineering problem, implementation choices, current evidence, and limitations.
 
 ## Projects
 
-- [Shenmen Pulse Watch](shenmen-pulse-watch/): synthetic pulse-wave generation, DSP features, analysis, and report workflow.
-- [Gel Tactile Sensing](gel-tactile-sensing/): optical-flow feature extraction and a synthetic tactile contract smoke test.
-- [BTC/ETH Macro-Quant Research System](macro-quant-research-system/): React/TypeScript renderer, Electron security/IPC review surface, and tests.
-- [Yin-Yang 25 Research Survey](yy25-research-survey/): public-server security, storage, HTTP modules, and isolated security tests.
-- [Mathematical Modeling Reproducibility](mathematical-modeling-reproducibility/): numerical solver core and synthetic analytical acceptance tests.
+| Project | Focus | Start here |
+|---|---|---|
+| Shenmen Pulse Watch | Optical pulse-wave signal processing and research workflow | [README](shenmen-pulse-watch/README.md) |
+| Gel Tactile Sensing | Optical-flow tactile sensing, calibration pipeline, and OOD-aware UI | [README](gel-tactile-sensing/README.md) |
+| BTC/ETH Macro-Quant Research System | Read-only research desktop UI and forecast audit workflow | [README](macro-quant-research-system/README.md) |
+| Yin-Yang 25 Research Survey | Privacy-conscious research survey server core | [README](yy25-research-survey/README.md) |
+| Mathematical Modeling Reproducibility | Numerical solver and reproducibility tests | [README](mathematical-modeling-reproducibility/README.md) |
 
-Each project directory contains its own README, license notice, environment example, and run instructions. The uploaded tree excludes private datasets, credentials, production databases, raw participant responses, advisor-owned hardware materials, trained weights, organizer attachments, dependency caches, and generated build output.
+## Running the snapshots
 
-These are portfolio code snapshots. They are not claims of clinical validity, trading profitability, public deployment, or competition-result reproduction without the separately controlled inputs described in each README.
+Each project README lists its prerequisites, commands, and test scope. The snapshots use synthetic examples where source data, trained weights, hardware, or competition attachments are not included. A passing software test does not establish clinical validity, trading profitability, public deployment, or reproduction of a competition result.
+
+## Contents and limits
+
+This repository contains sanitized portfolio code snapshots. It excludes private datasets, credentials, production databases, participant responses, advisor-owned hardware materials, trained weights, and organizer-provided attachments. See each project's `docs/CORE_SNAPSHOT.md` for exact boundaries.
+
+The project descriptions are a factual index to the included work. Personal application statements and motivations are written by the applicant.
+

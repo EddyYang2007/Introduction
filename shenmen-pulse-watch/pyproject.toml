@@ -1,0 +1,19 @@
+[project]
+name = "shenmen-pulse-quantifier"
+version = "0.1.0"
+description = "Research prototype for HT7 Shenmen PPG pulse-wave quantification"
+requires-python = ">=3.10"
+authors = [{ name = "Research Prototype" }]
+
+[project.scripts]
+shenmen-demo = "shenmen_pulse.simulate:main"
+shenmen-analyze = "shenmen_pulse.analyze:main"
+shenmen-report = "shenmen_pulse.report:main"
+
+[tool.setuptools]
+packages = ["shenmen_pulse"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+

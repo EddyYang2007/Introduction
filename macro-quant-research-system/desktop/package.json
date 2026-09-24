@@ -1,0 +1,32 @@
+{
+  "name": "macro-daily-audit-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BTC/ETH 日线宏观量化系统只读审计桌面端",
+  "author": "Local Quant Research",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "build:renderer": "vite build",
+    "build": "npm run check && vite build",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pack": "npm run build && electron-builder --dir",
+    "dist:win": "npm run build && electron-builder --win nsis",
+    "smoke:demo": "vite --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react-dom": "19.3.0",
+    "react": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "@types/react": "19.3.0",
+    "vitest": "5.0.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.0"
+  }
+}
+
