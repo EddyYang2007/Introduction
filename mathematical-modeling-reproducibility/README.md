@@ -34,7 +34,7 @@ Real material properties, long-horizon environment evidence, historical solver-w
 ## Artifacts
 
 - `README.md` and `docs/contribution_questions.md` in this draft repository.
-- `reproduce.py`, `REPRODUCE.md`, and the physics evidence report are mapped in the portfolio delivery manifest.
+- The runnable code in this snapshot is under `code/`; the formal reproduction entry point, competition inputs, frozen results, and paper are excluded.
 - Public paper/source links: pending rule, license, and user review.
 
 ## Draft and licensing status
@@ -53,5 +53,8 @@ python -m pytest code\test_refined_model.py -q
 ```
 
 The full reproduction entry point is intentionally not copied because it expects organizer-provided input attachments. Solver tests use analytical/synthetic conditions only and do not reproduce the competition result or prove physical validity.
+
+
+
 
 
