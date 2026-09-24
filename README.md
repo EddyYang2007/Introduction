@@ -1,24 +1,21 @@
 # Eddy Yang — Project Portfolio
 
-Five project snapshots and their runnable core code are collected here. Read each project README for my role, the engineering problem, implementation choices, current evidence, and limitations.
+This repository contains sanitized snapshots of five projects. Each project README describes the problem, my contribution, implementation decisions, available evidence, and limitations.
 
 ## Projects
 
-| Project | Focus | Start here |
+| Project | What to inspect | Snapshot boundary |
 |---|---|---|
-| Shenmen Pulse Watch | Optical pulse-wave signal processing and research workflow | [README](shenmen-pulse-watch/README.md) |
-| Gel Tactile Sensing | Optical-flow tactile sensing, calibration pipeline, and OOD-aware UI | [README](gel-tactile-sensing/README.md) |
-| BTC/ETH Macro-Quant Research System | Read-only research desktop UI and forecast audit workflow | [README](macro-quant-research-system/README.md) |
-| Yin-Yang 25 Research Survey | Privacy-conscious research survey server core | [README](yy25-research-survey/README.md) |
-| Mathematical Modeling Reproducibility | Numerical solver and reproducibility tests | [README](mathematical-modeling-reproducibility/README.md) |
+| [Shenmen Pulse Watch](shenmen-pulse-watch/README.md) | [Signal pipeline](shenmen-pulse-watch/shenmen_pulse/), synthetic generator, analyzer, report writer, and tests | No hardware acquisition stack, measured sessions, CAD, or patent drafts |
+| [Gel Tactile Sensing](gel-tactile-sensing/README.md) | [Feature extraction](gel-tactile-sensing/extract_features.py), frontend, browser UI, synthetic smoke test | No calibration dataset, model weights, or advisor-owned hardware files |
+| [BTC/ETH Macro-Quant Research System](macro-quant-research-system/README.md) | [React renderer](macro-quant-research-system/desktop/src/), Electron security/IPC, tests | No FastAPI backend, credentials, market database, or model assets |
+| [Yin-Yang 25 Research Survey](yy25-research-survey/README.md) | [HTTP/security/storage core](yy25-research-survey/src/), frontend shell, tests | No questionnaire/scoring bundle, admin UI, response data, or deployment config |
+| [Mathematical Modeling Reproducibility](mathematical-modeling-reproducibility/README.md) | [Numerical solver](mathematical-modeling-reproducibility/code/), independent synthetic/analytical tests | No organizer prompt/attachments, frozen results, or final paper |
 
-## Running the snapshots
+## Run and verify
 
-Each project README lists its prerequisites, commands, and test scope. The snapshots use synthetic examples where source data, trained weights, hardware, or competition attachments are not included. A passing software test does not establish clinical validity, trading profitability, public deployment, or reproduction of a competition result.
+Follow each project README for environment setup and commands. The included test suites cover software contracts and numerical checks within each snapshot. Some full application flows need private or separately controlled assets and are not runnable from this repository alone.
 
-## Contents and limits
+## Evidence boundaries
 
-This repository contains sanitized portfolio code snapshots. It excludes private datasets, credentials, production databases, participant responses, advisor-owned hardware materials, trained weights, and organizer-provided attachments. See each project's `docs/CORE_SNAPSHOT.md` for exact boundaries.
-
-The project descriptions are a factual index to the included work. Personal application statements and motivations are written by the applicant.
-
+These snapshots do not claim clinical validity, force metrology, trading profitability, public service deployment, or reproduction of the competition result. Historical evidence and open limitations are described per project. Personal application statements and motivations are written by the applicant.
